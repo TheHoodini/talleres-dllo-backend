@@ -36,7 +36,7 @@ function missingNumbers(lista){
     }
     
     for (let i = menor; i < mayor; i++){
-        if (!lista.includes(i)){
+        if (!includes(lista, i)){
             faltantes.push(i);
         }
     }
